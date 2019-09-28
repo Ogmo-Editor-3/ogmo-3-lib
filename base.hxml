@@ -1,0 +1,13 @@
+# class paths
+-cp sample
+
+# entry point
+-main Main
+
+# libraries
+-lib heaps
+-lib ogmo-3
+
+# flags
+-debug
+-D windowSize=512x512

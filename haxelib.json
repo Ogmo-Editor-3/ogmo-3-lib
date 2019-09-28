@@ -1,0 +1,13 @@
+{
+  "name": "ogmo-3",
+  "license": "MIT",
+  "tags": ["editor"],
+  "description": "Ogmo Editor 3 project and level loader",
+  "contributors": ["austineast"],
+  "url": "https://github.com/Ogmo-Editor-3",
+  "releasenote": "first release",
+  "version": "0.1.0",
+  "dependencies": {
+    "json2object": ""
+  }
+}
