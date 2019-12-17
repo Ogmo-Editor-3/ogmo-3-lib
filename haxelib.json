@@ -5,9 +5,7 @@
   "description": "Ogmo Editor 3 project and level loader",
   "contributors": ["austineast"],
   "url": "https://github.com/Ogmo-Editor-3",
-  "releasenote": "first release",
-  "version": "0.1.0",
-  "dependencies": {
-    "json2object": ""
-  }
+  "releasenote": "removed json2object",
+  "version": "1.0.0",
+  "classPath": "ogmo/"
 }

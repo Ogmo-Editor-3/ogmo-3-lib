@@ -99,9 +99,9 @@ class Main extends hxd.App
 
 			graphic.beginFill();
 
-			for (x in 0...grid.length) for (y in 0...grid[x].length)
+			for (y in 0...grid.length) for (x in 0...grid[y].length)
 			{
-				if (grid[x][y] != "0") graphic.drawRect(x * layer.gridCellWidth, y * layer.gridCellHeight, layer.gridCellWidth, layer.gridCellHeight);
+				if (grid[y][x] != "0") graphic.drawRect(x * layer.gridCellWidth, y * layer.gridCellHeight, layer.gridCellWidth, layer.gridCellHeight);
 			}
 
 			graphic.endFill();
@@ -121,7 +121,7 @@ class Main extends hxd.App
 		level.onDecalLayerLoaded = (decals, layer) -> 
 		{
 			for (decal in decals) {
-				var e = new Bitmap(hxd.Res.load('img/${decal.texture}').toTile(), s2d);
+				var e = new Bitmap(hxd.Res.load(layer.folder + '/' + decal.texture).toTile(), s2d);
 				e.tile.dx -= e.tile.width * 0.5;
 				e.tile.dy -= e.tile.height * 0.5;
 				e.setPosition(decal.x + layer.offsetX, decal.y + layer.offsetY);
