@@ -176,7 +176,7 @@ class Level {
 						gridCellWidth: layer.gridCellWidth,
 						gridCellHeight: layer.gridCellHeight,
 						gridCellsX: layer.gridCellsX,
-						gridCellsY: layer.gridCellY,
+						gridCellsY: layer.gridCellsY,
 						data: layer.data,
 						data2D: layer.data2D,
 						dataCoords: layer.dataCoords,

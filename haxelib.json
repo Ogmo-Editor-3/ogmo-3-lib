@@ -5,7 +5,7 @@
   "description": "Ogmo Editor 3 project and level loader",
   "contributors": ["austineast"],
   "url": "https://github.com/Ogmo-Editor-3",
-  "releasenote": "removed accidental old files",
-  "version": "1.0.1",
+  "releasenote": "fixed gridCellsY type",
+  "version": "1.0.2",
   "classPath": "ogmo/"
 }
